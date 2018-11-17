@@ -29,7 +29,7 @@ class Song
   def self.genre_count
     g_count={}
     Song.genres.each do |genre|
-      g_count[genre] => Song.genres.count(genre)
+      g_count[genre] => slef.genres.count(genre)
     end
   end
 
